@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}"/>
+</head>
+<body>
+   
+    <div id="loading">
+        <img src="{% static 'images/I.gif' %}" alt="Loading..." />
+    </div>
+  
+    <nav id="navbar">
+    <div class="logo-img">
+        <img src="{% static 'images/loho.jpg' %}" alt="logo" />
+        </div>
+    <div class="logo">
+        <a href="#">YourLogo</a>
+    </div>
+    <ul class="nav-links">
+        <button class="btn"> <li><a href="#">Home</a></li></button>
+        <button class="btn"><li><a href="#">About</a></li></button>
+        <button class="btn"><li><a href="#">service</a></li></button>
+        <button class="btn"><li><a href="#">contact</a></li></button>
+
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    <!-- </div>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </li> -->
+</nav>
+{% block content %}
+{% endblock %}
+
+
+</body>
+<script src="{% static 'js/script.js' %}"></script>
+
+</html>

@@ -1,0 +1,28 @@
+/* <-----------------------------------------------------------------Index start ------------------------------------------> */
+
+/* Section Styles */
+section {
+    padding: 20px;
+    height: 100vh; /* This will make each section take up the full viewport height */
+}
+
+/* You can add individual styles to each section using their IDs */
+#section1 {
+    background-color: #141111;
+}
+
+#section2 {
+    background-color: #e1e1e1;
+}
+
+#section3 {
+    background-color: #d1d1d1;
+}
+
+#section4 {
+    background-color: #c1c1c1;
+}
+
+#section5 {
+    background-color: #b1b1b1;
+}
